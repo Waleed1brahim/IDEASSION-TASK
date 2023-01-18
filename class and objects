@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+class area 
+{
+	public:
+	void rect(int l,int b)
+    {
+    	cout<<"area of rectangle:"<<l*b<<endl;
+    }
+    void square(int a)
+    {
+    	cout<<"area of circle:"<<a*a;
+    }
+};
+int main() {
+	area ar;
+    ar.rect(5,6);
+    ar.square(4);
+  return 0;
+}
